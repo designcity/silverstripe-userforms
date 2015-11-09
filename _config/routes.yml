@@ -1,0 +1,8 @@
+---
+Name: userdefinedformroutes
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    'UserDefinedForm_Controller': 'UserDefinedForm_Controller'
+
